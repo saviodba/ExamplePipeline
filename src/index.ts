@@ -9,5 +9,5 @@ app.get("/", (request: Request, response: Response) => {
 })
 
 app.listen(7000, () => {
-  console.log("Server is online.")
+  console.log("Server is online. In Port 7000")
 })
