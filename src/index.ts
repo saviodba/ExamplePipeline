@@ -4,10 +4,10 @@ const app = express()
 
 app.get("/", (request: Request, response: Response) => {
   response.json({
-    message: "Hello word",
+    message: "Olá Mundo cruel!",
   })
 })
 
 app.listen(7000, () => {
-  console.log("Server is online.")
+  console.log("Server is online. In Port 7000")
 })
